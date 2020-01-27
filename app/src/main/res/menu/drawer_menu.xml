@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/colorAccent">
+        <item
+            android:id="@+id/nav_a"
+            android:title="@string/m_home"
+        android:textColor="@color/colorAccent"/>
+            <!--android:icon="@drawable/ic_home"-->
+
+        <item
+            android:id="@+id/nav_b"
+            android:title="@string/m_routines" />
+            <!--android:icon="@drawable/ic_contact"-->
+
+    <item
+        android:id="@+id/nav_c"
+        android:title="@string/m_settings" />
+        <!--android:icon="@drawable/ic_settings"-->
+
+    <item
+        android:id="@+id/nav_d"
+
+        android:title="@string/m_bmi" />
+        <!--android:icon="@drawable/ic_bell"-->
+
+        <!--
+            <item
+                android:id="@+id/nav_e"
+
+                android:title="@string/m_share" />
+                android:icon="@drawable/ic_share"-->
+
+    <item
+        android:id="@+id/nav_e"
+        android:title="@string/m_daily_calorie" />
+
+
+</group>
+</menu>

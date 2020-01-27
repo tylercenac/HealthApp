@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".SelectDayActivity">
+
+
+    <Button
+        android:id="@+id/saturdayButton"
+        android:layout_width="294dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="40dp"
+        android:text="Saturday"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fridayButton" />
+
+    <Button
+        android:id="@+id/fridayButton"
+        android:layout_width="294dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="40dp"
+        android:text="Friday"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/thursdayButton" />
+
+    <Button
+        android:id="@+id/thursdayButton"
+        android:layout_width="294dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="40dp"
+        android:text="Thursday"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wednesdayButton" />
+
+    <Button
+        android:id="@+id/wednesdayButton"
+        android:layout_width="294dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="40dp"
+        android:text="Wednesday"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tuesdayButton" />
+
+    <Button
+        android:id="@+id/tuesdayButton"
+        android:layout_width="294dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="40dp"
+        android:text="Tuesday"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mondayButton" />
+
+    <Button
+        android:id="@+id/mondayButton"
+        android:layout_width="294dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="40dp"
+        android:text="Monday"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sundayButton" />
+
+    <Button
+        android:id="@+id/sundayButton"
+        android:layout_width="294dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="44dp"
+        android:text="Sunday"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iToolbar" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/iToolbar"
+        android:layout_width="412dp"
+        android:layout_height="53dp"
+        android:background="@color/colorPrimary"
+        android:elevation="4dp"
+        android:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:theme="@style/NavigationDrawerTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="Select A Day"
+        app:titleTextColor="@color/colorAccent"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!--
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/colorPrimaryDark"
+        app:itemTextColor="@color/colorAccent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:menu="@menu/drawer_menu" />  -->

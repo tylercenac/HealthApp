@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">HealthApp v4</string>
+    <string name="m_home">Home</string>
+    <string name="m_routines">Routines</string>
+    <string name="m_settings">Settings</string>
+    <string name="m_bmi">BMI Calculator</string>
+    <string name="s_title">tycenac@gmail.com</string>
+    <string name="nav_draw_open">Nav Draw Open</string>
+    <string name="nav_draw_close">Nav Draw Close</string>
+    <string name="m_daily_calorie">Nutrition Calculator</string>
+</resources>
